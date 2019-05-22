@@ -4,13 +4,14 @@
   "manifest_version": 2,
   "name": "Allercheck",
   "version": "1.0",
-  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "homepage_url": "https://github.com/androne23/Allercheck",
   "icons": {
     "48": "icons/Allercheck-48.png"
   },
 
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
 
   "browser_action": {
@@ -25,9 +26,34 @@
   },
 
   "web_accessible_resources": [
-    "beasts/frog.jpg",
-    "beasts/turtle.jpg",
-    "beasts/snake.jpg"
+    "allergen/celery_activated.png",
+    "allergen/crustacena_activated.png",
+    "allergen/eggs_activated.png",
+    "allergen/fish_activated.png",
+    "allergen/lupin_activated.png",
+    "allergen/milk_activated.png",
+    "allergen/molluscs_activated.png",
+    "allergen/mustard_activated.png",
+    "allergen/peanut_activated.png",
+    "allergen/sesame_activated.png",
+    "allergen/soya_activated.png",
+    "allergen/sulphurdioxide_activated.png",
+    "allergen/treenut_activated.png",
+    "allergen/wheat_activated.png",
+    "allergen/celery_disactivated.png",
+    "allergen/crustacena_disactivated.png",
+    "allergen/eggs_disactivated.png",
+    "allergen/fish_disactivated.png",
+    "allergen/lupin_disactivated.png",
+    "allergen/milk_disactivated.png",
+    "allergen/molluscs_disactivated.png",
+    "allergen/mustard_disactivated.png",
+    "allergen/peanut_disactivated.png",
+    "allergen/sesame_disactivated.png",
+    "allergen/soya_disactivated.png",
+    "allergen/sulphurdioxide_disactivated.png",
+    "allergen/treenut_disactivated.png",
+    "allergen/wheat_disactivated.png"
   ]
 
 }

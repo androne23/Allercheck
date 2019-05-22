@@ -1,0 +1,106 @@
+html, body {
+  width: 150px;
+  height: 250px;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.beast:hover {
+  background-color: #CFF2F2;
+}
+
+.beast {
+  background-color: #E5F2F2;
+}
+
+.reset {
+  background-color: #FBFBC9;
+}
+
+.reset:hover {
+  background-color: #EAEA9D;
+}
+
+
+#celery{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#crustacena{
+  position: absolute;
+  left: 50px;
+  top: 0px;
+}
+#eggs{
+  position: absolute;
+  left: 100px;
+  top: 0px;
+}
+#fish{
+  position: absolute;
+  left: 0px;
+  top: 50px;
+}
+#lupin{
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+#milk{
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+#molluscs{
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+#mustard{
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+#peanut{
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+#sesame{
+  position: absolute;
+  left: 0px;
+  top: 150px;
+}
+#soya{
+  position: absolute;
+  left: 50px;
+  top: 150px;
+}
+#sulphurdioxide{
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+
+#treenut{
+  position: absolute;
+  left: 25px;
+  top: 200px;
+}
+
+#wheat{
+  position: absolute;
+  left: 75px;
+  top: 200px;
+}
